@@ -7,7 +7,7 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1 class="text-3xl font-bold underline">{{ msg }}</h1>
 
   <p>
     Recommended IDE setup:
@@ -47,6 +47,7 @@ code {
   background-color: #eee;
   padding: 2px 4px;
   border-radius: 4px;
-  color: #304455;
+  --color: #304455;
+  color: red;
 }
 </style>
